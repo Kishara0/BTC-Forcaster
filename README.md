@@ -1,8 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## BTC-Forecaster
 
-First, run the development server:
+Welcome to the BTC-Forecaster modern landing page repository! This project is designed to showcase a sleek, responsive, and interactive website built for BTC-Forecaster, a platform offering AI-powered Bitcoin market analysis.
 
 ```bash
 npm run dev
@@ -10,25 +9,43 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Features
+- Modern Design: A visually appealing landing page with a professional and futuristic theme.
+- Framer Motion Animations: Smooth transitions and animations for an interactive user experience.
+- Next.js Framework: Provides a fast, SEO-optimized, and scalable React-based environment.
+- Tailwind CSS: Enables responsive and modern styling with minimal effort.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Tech Stack
+- Next.js: For server-side rendering and a powerful React framework.
+- Tailwind CSS: For modern and responsive styling.
+- Framer Motion: For dynamic animations and interactive effects.
+Installation
+To get started with the project locally:
 
-## Learn More
+## Clone the repository:
+```bash
+git clone https://github.com/your-username/BTC-Forecaster.git
+```
+- Navigate to the project directory:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+cd BTC-Forecaster
+```
+- Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+Copy code
+npm install
+```
+- Run the development server:
+```bash
+Copy code
+npm run dev
+```
+## Project Structure
+- /components: Reusable React components for the landing page.
+- /pages: Next.js pages for routing and rendering.
+- /styles: Tailwind CSS configuration and global styles.
+- /public: Static assets such as images and icons.
